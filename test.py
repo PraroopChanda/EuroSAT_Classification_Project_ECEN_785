@@ -78,7 +78,7 @@ def run_model():
     model=MultiClassSingleLabelModel().to(device)    
 
     ### loading the pre-trained model
-    checkpoint=torch.load("./Final_ckpt_1e-5.pkt",map_location=device)
+    checkpoint=torch.load("./model_checkpoint_1e-05.pkt",map_location=device)
     model.load_state_dict(checkpoint,strict=True)
 
     print("---- Model Loaded Successfully ----")
