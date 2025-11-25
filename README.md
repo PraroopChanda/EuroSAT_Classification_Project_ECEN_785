@@ -43,3 +43,14 @@ The goal of this project is to train, evaluate, and compare deep learning models
    ``` bash
    python test.py
    ```
+
+## 🔬 Research Extension: Generative AI for Data Augmentation
+
+As part of a research extension, we explored **Generative AI techniques** to increase the training dataset for the EuroSAT classification task.  
+Using a **Variational Autoencoder (VAE)**, we generated additional synthetic images. T
+
+This extension shows how generative models can be applied to **enhance datasets** in remote sensing and land-use classification projects.  
+
+For details, see the code and experiments in the repository link:
+Link: https://github.com/yuhanfu11/ecen758_research_extension
+  
